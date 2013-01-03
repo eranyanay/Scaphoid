@@ -8,6 +8,7 @@ proc getLineName {i} {
 	set linesNames [list "Pre" "PCA" "SEC" "Post"]
 	return [lindex $linesNames $i]
 }
+# returns the color of each line, where each line has an identification number
 proc getLineColor {i} {
 	# "Pre" "PCA" "SmallestEnclosingCylinder" "Post"
 	set linesColors [list "0 0 255" "0 255 0" "165 42 42" "0 255 255"]
