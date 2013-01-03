@@ -3,6 +3,7 @@
 proc getLineNum {} {
 	return 4
 }
+# returns Names of Lines, where each line has an identification number
 proc getLineName {i} {
 	set linesNames [list "Pre" "PCA" "SEC" "Post"]
 	return [lindex $linesNames $i]
