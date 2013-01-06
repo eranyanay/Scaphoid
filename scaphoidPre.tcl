@@ -1,5 +1,6 @@
 # Amira-Script-Object V3.0
 #todo add doucomentation for each function
+# returns number of lines
 proc getLineNum {} {
 	return 4
 }
